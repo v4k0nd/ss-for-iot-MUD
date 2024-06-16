@@ -1,0 +1,5 @@
+- nickname `mood_lamp-3204432`
+- MAC `b8:06:0d:18:84:b4`
+- link https://www.action.com/nl-nl/p/3204432/lsc-smart-connect-sfeerlamp/
+- gateway ip: `10.42.0.1`
+- gateway MAC: `d8:3a:dd:ee:25:0a`

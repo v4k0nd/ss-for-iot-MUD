@@ -3,8 +3,8 @@
 University project, contains results of running `mudgee` [link](https://github.com/ayyoob/mudgee) on network traffic (`.pcap`) files of the following IoT devices, (captured on two different rpi's).
 
 Contents:
-- The recorded network traffic can be found as `<device_nickname>.pcap`.
 - The `mud_config-*.json` files are the input to the `mudgee` [link](https://github.com/ayyoob/mudgee).
+- The recorded network traffic can be found inside the device name folders as `<device_nickname>.pcap/ng`.
 - The folders contain the output of the `mudgee` tool (ipflow, mud profile, rule csv).
 
 ## Tapo Smart wifi plug energy monitoring (P115) [Media markt]
