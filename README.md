@@ -6,7 +6,7 @@ The `mud_profile-*.json` files are the input to the `mudgee` [link](https://gith
 
 ## Tapo Smart wifi plug energy monitoring (P115) [Media markt]
 
-![](https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_98129264){ width=150px }
+<img src="https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_98129264" width="200px">
 
 - nickname `tapo-p115`
 - MAC `40:ae:30:46:6e:a8`
@@ -16,7 +16,7 @@ The `mud_profile-*.json` files are the input to the `mudgee` [link](https://gith
 
 ## Smart connect mood light (3204432) [Action]
 
-![](https://action.com/hostedassets/CMSArticleImages/73/04/3204432_8712879161264-111_01_20240118102412.png?width=350){ width=150px }
+<img src="https://action.com/hostedassets/CMSArticleImages/73/04/3204432_8712879161264-111_01_20240118102412.png" width="200px">
 
 
 - nickname `mood_lamp-3204432`
@@ -27,7 +27,7 @@ The `mud_profile-*.json` files are the input to the `mudgee` [link](https://gith
 
 ## Tuya Wifi Door Sensor (19JWT) [Aliexpress / ONENUO SMART Store]
 
-![](https://ae01.alicdn.com/kf/S610a2562335140519c7fa1ab0836a4a5Y/Tuya-Wifi-Deur-Sensor-Raam-Ingang-Sensor-Beveiliging-Inbreker-Deur-Sensor-Alarm-Slim-Leven-Magnetische-Deur.jpg){ width=150px }
+<img src="https://ae01.alicdn.com/kf/S610a2562335140519c7fa1ab0836a4a5Y/Tuya-Wifi-Deur-Sensor-Raam-Ingang-Sensor-Beveiliging-Inbreker-Deur-Sensor-Alarm-Slim-Leven-Magnetische-Deur.jpg" width="200px">
 
 - nickname `door_sensor-19JWT`
 - MAC `b8:06:0d:3b:47:f8`
