@@ -1,0 +1,14 @@
+{
+    "defaultGatewayConfig": {
+        "macAddress" : "d8:3a:dd:ee:25:0a",
+        "ipAddress": "10.42.0.1",
+        "ipv6Address": ""
+    },
+
+    "deviceConfig":{
+        "device":"b8:06:0d:18:84:b4",
+        "deviceName": "mood_lamp-3204432"
+    },
+
+    "pcapLocation": "/mudgee/recorded.pcap"
+}
