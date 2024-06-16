@@ -1,0 +1,14 @@
+{
+    "defaultGatewayConfig": {
+        "macAddress" : "d8:3a:dd:ee:25:0a",
+        "ipAddress": "10.42.0.1",
+        "ipv6Address": ""
+    },
+
+    "deviceConfig":{
+        "device":"40:ae:30:46:6e:a8",
+        "deviceName": "tapo-p115"
+    },
+
+    "pcapLocation": "/mudgee/recorded.pcap"
+}
