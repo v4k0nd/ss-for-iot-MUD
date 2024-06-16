@@ -2,7 +2,7 @@
   "ietf-mud:mud" : {
     "mud-version" : 1,
     "mud-url" : "https://tapo-p115.com/tapo-p115",
-    "last-update" : "2024-06-16T12:25:01.011Z",
+    "last-update" : "2024-06-16T13:05:54.244Z",
     "cache-validity" : 100,
     "is-supported" : true,
     "systeminfo" : "tapo-p115",
@@ -30,13 +30,13 @@
           "name" : "from-ipv4-tapo-p115-0",
           "matches" : {
             "ipv4" : {
-              "protocol" : 6,
-              "destination-ipv4-network" : "10.42.0.205/32"
+              "protocol" : 17,
+              "ietf-acldns:dst-dnsname" : "pool.ntp.org"
             },
-            "tcp" : {
+            "udp" : {
               "destination-port" : {
                 "operator" : "eq",
-                "port" : 52433
+                "port" : 123
               }
             }
           },
@@ -48,13 +48,68 @@
           "matches" : {
             "ipv4" : {
               "protocol" : 6,
-              "destination-ipv4-network" : "52.212.130.239/32"
+              "ietf-acldns:dst-dnsname" : "aps1-openapi.i.tplinknbu.com"
             },
             "tcp" : {
               "destination-port" : {
                 "operator" : "eq",
                 "port" : 443
-              }
+              },
+              "ietf-mud:direction-initiated" : "from-device"
+            }
+          },
+          "actions" : {
+            "forwarding" : "accept"
+          }
+        }, {
+          "name" : "from-ipv4-tapo-p115-2",
+          "matches" : {
+            "ipv4" : {
+              "protocol" : 6,
+              "ietf-acldns:dst-dnsname" : "euw1-device-cloudgateway.iot.i.tplinknbu.com"
+            },
+            "tcp" : {
+              "destination-port" : {
+                "operator" : "eq",
+                "port" : 443
+              },
+              "ietf-mud:direction-initiated" : "from-device"
+            }
+          },
+          "actions" : {
+            "forwarding" : "accept"
+          }
+        }, {
+          "name" : "from-ipv4-tapo-p115-3",
+          "matches" : {
+            "ipv4" : {
+              "protocol" : 6,
+              "ietf-acldns:dst-dnsname" : "n-euw1-device-api.tplinkcloud.com"
+            },
+            "tcp" : {
+              "destination-port" : {
+                "operator" : "eq",
+                "port" : 443
+              },
+              "ietf-mud:direction-initiated" : "from-device"
+            }
+          },
+          "actions" : {
+            "forwarding" : "accept"
+          }
+        }, {
+          "name" : "from-ipv4-tapo-p115-4",
+          "matches" : {
+            "ipv4" : {
+              "protocol" : 6,
+              "ietf-acldns:dst-dnsname" : "security.iot.i.tplinknbu.com"
+            },
+            "tcp" : {
+              "destination-port" : {
+                "operator" : "eq",
+                "port" : 443
+              },
+              "ietf-mud:direction-initiated" : "from-device"
             }
           },
           "actions" : {
@@ -69,6 +124,74 @@
         "ace" : [ {
           "name" : "to-ipv4-tapo-p115-0",
           "matches" : {
+            "ipv4" : {
+              "protocol" : 6,
+              "ietf-acldns:src-dnsname" : "aps1-openapi.i.tplinknbu.com"
+            },
+            "tcp" : {
+              "source-port" : {
+                "operator" : "eq",
+                "port" : 443
+              }
+            }
+          },
+          "actions" : {
+            "forwarding" : "accept"
+          }
+        }, {
+          "name" : "to-ipv4-tapo-p115-1",
+          "matches" : {
+            "ipv4" : {
+              "protocol" : 6,
+              "ietf-acldns:src-dnsname" : "euw1-device-cloudgateway.iot.i.tplinknbu.com"
+            },
+            "tcp" : {
+              "source-port" : {
+                "operator" : "eq",
+                "port" : 443
+              }
+            }
+          },
+          "actions" : {
+            "forwarding" : "accept"
+          }
+        }, {
+          "name" : "to-ipv4-tapo-p115-2",
+          "matches" : {
+            "ipv4" : {
+              "protocol" : 6,
+              "ietf-acldns:src-dnsname" : "security.iot.i.tplinknbu.com"
+            },
+            "tcp" : {
+              "source-port" : {
+                "operator" : "eq",
+                "port" : 443
+              }
+            }
+          },
+          "actions" : {
+            "forwarding" : "accept"
+          }
+        }, {
+          "name" : "to-ipv4-tapo-p115-3",
+          "matches" : {
+            "ipv4" : {
+              "protocol" : 6,
+              "ietf-acldns:src-dnsname" : "n-euw1-device-api.tplinkcloud.com"
+            },
+            "tcp" : {
+              "source-port" : {
+                "operator" : "eq",
+                "port" : 443
+              }
+            }
+          },
+          "actions" : {
+            "forwarding" : "accept"
+          }
+        }, {
+          "name" : "to-ipv4-tapo-p115-4",
+          "matches" : {
             "ietf-mud:mud" : {
               "controller" : "urn:ietf:params:mud:gateway"
             },
@@ -79,6 +202,23 @@
               "source-port" : {
                 "operator" : "eq",
                 "port" : 67
+              }
+            }
+          },
+          "actions" : {
+            "forwarding" : "accept"
+          }
+        }, {
+          "name" : "to-ipv4-tapo-p115-5",
+          "matches" : {
+            "ipv4" : {
+              "protocol" : 17,
+              "ietf-acldns:src-dnsname" : "pool.ntp.org"
+            },
+            "udp" : {
+              "source-port" : {
+                "operator" : "eq",
+                "port" : 123
               }
             }
           },

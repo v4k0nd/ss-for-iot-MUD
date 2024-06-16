@@ -1,4 +1,12 @@
 srcMac,dstMac,ethType,srcIp,dstIp,ipProto,srcPort,dstPort,priority, icmpType, icmpCode
-<deviceMac>,<gatewayMac>,0x0800,52.212.130.239,10.42.0.205,6,443,52433,810,*,*
-<deviceMac>,<gatewayMac>,0x0800,10.42.0.205,52.212.130.239,6,52433,443,810,*,*
+<deviceMac>,<gatewayMac>,0x0800,*,pool.ntp.org,17,*,123,1001,*,*
+<deviceMac>,<gatewayMac>,0x0800,*,aps1-openapi.i.tplinknbu.com,6,*,443,855,*,*
+<deviceMac>,<gatewayMac>,0x0800,*,euw1-device-cloudgateway.iot.i.tplinknbu.com,6,*,443,855,*,*
+<deviceMac>,<gatewayMac>,0x0800,*,n-euw1-device-api.tplinkcloud.com,6,*,443,855,*,*
+<deviceMac>,<gatewayMac>,0x0800,*,security.iot.i.tplinknbu.com,6,*,443,855,*,*
+<gatewayMac>,<deviceMac>,0x0800,aps1-openapi.i.tplinknbu.com,*,6,443,*,750,*,*
+<gatewayMac>,<deviceMac>,0x0800,euw1-device-cloudgateway.iot.i.tplinknbu.com,*,6,443,*,750,*,*
+<gatewayMac>,<deviceMac>,0x0800,security.iot.i.tplinknbu.com,*,6,443,*,750,*,*
+<gatewayMac>,<deviceMac>,0x0800,n-euw1-device-api.tplinkcloud.com,*,6,443,*,750,*,*
 <gatewayMac>,<deviceMac>,0x0800,10.42.0.1,*,17,67,*,1400,*,*
+<gatewayMac>,<deviceMac>,0x0800,pool.ntp.org,*,17,123,*,1001,*,*
