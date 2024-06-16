@@ -1,0 +1,14 @@
+{
+    "defaultGatewayConfig": {
+        "macAddress" : "b8:27:eb:a0:92:24",
+        "ipAddress": "10.42.0.1",
+        "ipv6Address": ""
+    },
+
+    "deviceConfig":{
+        "device":"b8:06:0d:3b:47:f8",
+        "deviceName": "door_sensor-19JWT"
+    },
+
+    "pcapLocation": "/mudgee/recorded.pcap"
+}
