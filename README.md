@@ -1,10 +1,12 @@
 # MUD profile analysis - Security services for IoT
 
-University project, contains results of running `mudgee` on network traffic (`.pcap`) files of the following IoT devices, (captured on two different rpi's)
+University project, contains results of running `mudgee` [link](https://github.com/ayyoob/mudgee) on network traffic (`.pcap`) files of the following IoT devices, (captured on two different rpi's).
+
+The `mud_profile-*.json` files are the input to the `mudgee` [link](https://github.com/ayyoob/mudgee).
 
 ## Tapo Smart wifi plug energy monitoring (P115) [Media markt]
 
-![](https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_98129264)
+![](https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_98129264){ width=150px }
 
 - nickname `tapo-p115`
 - MAC `40:ae:30:46:6e:a8`
@@ -14,7 +16,8 @@ University project, contains results of running `mudgee` on network traffic (`.p
 
 ## Smart connect mood light (3204432) [Action]
 
-![](https://action.com/hostedassets/CMSArticleImages/73/04/3204432_8712879161264-111_01_20240118102412.png?width=350)
+![](https://action.com/hostedassets/CMSArticleImages/73/04/3204432_8712879161264-111_01_20240118102412.png?width=350){ width=150px }
+
 
 - nickname `mood_lamp-3204432`
 - MAC `b8:06:0d:18:84:b4`
@@ -24,7 +27,7 @@ University project, contains results of running `mudgee` on network traffic (`.p
 
 ## Tuya Wifi Door Sensor (19JWT) [Aliexpress / ONENUO SMART Store]
 
-![](https://ae01.alicdn.com/kf/S610a2562335140519c7fa1ab0836a4a5Y/Tuya-Wifi-Deur-Sensor-Raam-Ingang-Sensor-Beveiliging-Inbreker-Deur-Sensor-Alarm-Slim-Leven-Magnetische-Deur.jpg)
+![](https://ae01.alicdn.com/kf/S610a2562335140519c7fa1ab0836a4a5Y/Tuya-Wifi-Deur-Sensor-Raam-Ingang-Sensor-Beveiliging-Inbreker-Deur-Sensor-Alarm-Slim-Leven-Magnetische-Deur.jpg){ width=150px }
 
 - nickname `door_sensor-19JWT`
 - MAC `b8:06:0d:3b:47:f8`
